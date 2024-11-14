@@ -1,0 +1,88 @@
+        /* Genel stil */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #fff;
+            color: #5f6368;
+        }
+
+        /* Üst menü */
+        .top-menu {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+
+        .top-menu a {
+            margin-left: 20px;
+            color: #5f6368;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        /* Google logosu */
+        .logo {
+            font-size: 100px;
+            color: #4285F4;
+            font-weight: bold;
+        }
+
+        /* Renkli harfler */
+        .logo .red { color: #EA4335; }
+        .logo .yellow { color: #FBBC05; }
+        .logo .green { color: #34A853; }
+
+        /* Arama çubuğu */
+        .search-container {
+            margin: 20px 0;
+        }
+
+        .search-bar {
+            width: 500px;
+            padding: 12px 20px;
+            font-size: 16px;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            outline: none;
+        }
+
+        /* Arama düğmeleri */
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .buttons button {
+            padding: 10px 20px;
+            font-size: 14px;
+            margin: 0 5px;
+            color: #5f6368;
+            background-color: #f8f9fa;
+            border: 1px solid #dadce0;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .buttons button:hover {
+            background-color: #f1f3f4;
+        }
+
+        /* Alt menü */
+        .bottom-menu {
+            position: absolute;
+            bottom: 10px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .bottom-menu a {
+            margin: 0 10px;
+            color: #5f6368;
+            text-decoration: none;
+            font-size: 14px;
+        }
+  
