@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .title h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .underline {
+    width: 6rem;
+    height: 0.25rem;
+    background: #c59d5f;
+    margin: 0.5rem auto;
+  }
+  
+  .btn-container {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .filter-btn {
+    background: #c59d5f;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: capitalize;
+  }
+  
+  .filter-btn:hover {
+    background: #b0884c;
+  }
+  
+  .section-center {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .item-info {
+    padding: 1rem;
+  }
+  
+  .item-info header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
+  .item-info h4 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .item-text {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
